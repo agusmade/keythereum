@@ -28,7 +28,8 @@ module.exports = {
 
   scrypt: null,
 
-  crypto: isBrowser ? require("crypto-browserify") : require("crypto"),
+  // crypto: isBrowser ? require("crypto-browserify") : require("crypto"),
+  crypto: require("react-native-crypto"),
 
   constants: {
 
